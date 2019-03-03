@@ -1,0 +1,168 @@
+section.tour-detail {
+  // BREADCRUMB
+  div.t-breadcrumb {
+    border-bottom: 3px solid #9a9a9a;
+    ol.breadcrumb {
+      font-weight: bold;
+      background: none;
+      margin: 15px 0 15px 0;
+      padding: 0px;
+      >li+li:before {
+        content: '>';
+      }
+      li a{
+        color: #bdbdbd;
+      }
+      li.active {
+        text-transform: uppercase;
+        color: #1f995a;
+      }
+    }
+  }
+  // TOUR DETAIL
+  div.tour-detail {
+    // TOUR TITLE
+    h2.tour-title {
+      text-transform: uppercase;
+      font-size: 1.5em;
+      color: #008e46;
+      margin: 20px 0;
+    }
+    // TOUR IMAGE
+    div.tour-summary {
+      div.tour-detail-image {
+        height: 280px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      div.tour-itinerary {
+        p {
+          font-style: italic;
+          font-weight: bold;
+          text-indent: 30px;
+        }
+      }
+      margin-bottom: 25px !important;
+    }
+    // TAB
+    ul.nav-tabs {
+      border: none;
+      margin-bottom: 25px;
+      li {
+        a {
+          border: 1px solid #d9d9d9;
+          margin-right: 25px;
+          border-radius: 0;
+          color: #474747;
+        }
+      }
+      li.active {
+        a{
+          color: #ffffff;
+          background: #009f3c;
+        }
+      }
+    }
+    // TOUR ORDER
+    div#tour-order {
+      h3.header{
+        color: #29901a;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: center;
+        margin: 15px 0;
+      }
+      table {
+        width: 100%;
+        h3.company-logo {
+          font-weight: bold;
+          color: #269759;
+          font-size: 1.5em;
+          background: url("../images/logo.png") 50%/65px 65px no-repeat;
+          padding-top: 100px;
+          margin: 0 0 25px 0;
+        }
+        div.contact-info {
+          ul {
+            padding: 0;
+            list-style-type: none;
+            font-size: 0.8em;
+            li {
+              color: #606060;
+              height: 50px;
+              align-content:center;
+              margin-bottom: 25px;
+              padding-top: 75px;
+              h4,p {
+                margin: 0;
+                position: relative;
+                top: 50%;
+                -ms-transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+              }
+            }
+            li.address {
+              color: #269759;
+              background: url("../images/contact-icon-2.png") 50% -17px no-repeat;
+              span {
+                font-weight: bold;
+              }
+            }
+            li.email {
+              background: url("../images/contact-icon-2.png") 50% -75px no-repeat;
+            }
+            li.mobile {
+              background: url("../images/contact-icon-2.png") 50% -140px no-repeat;
+            }
+            li.phone {
+              background: url("../images/contact-icon-2.png") 50% -210px no-repeat;
+            }
+          }
+        }
+        td:first-child {
+          width: 45%;
+          text-align: center;
+        }
+        form {
+          padding: 0 25px;
+          div.form-group {
+            margin-bottom: 23px;
+          }
+        }
+      }
+      table, td {
+        border: 1px solid #cecece;
+        border-collapse: collapse;
+      }
+    }
+  }
+
+
+
+
+  div.relate-tour, div.relate-article {
+    h3.header {
+      font-size: 1.5em;
+      color: #29901a;
+      border-bottom: 3px solid #cdcdcd;
+      padding-bottom: 10px;
+    }
+    div.tour-image, div.article-image {
+      a{
+        margin-bottom: 5px !important;
+        img {
+          width: 170px;
+          height: 80px;
+        }
+      }
+    }
+    div.tour-title {
+      a{
+        color: $primary-color;
+      }
+    }
+  }
+}

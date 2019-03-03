@@ -1,0 +1,46 @@
+section.contact {
+  h1.company {
+    color: #269759;
+    margin: 0;
+    font-weight: bold;
+  }
+  div.contact-info {
+    ul {
+      padding: 0;
+      list-style-type: none;
+      margin: 50px 0 0 50px;
+      font-size: 0.9em;
+      li {
+        color: #606060;
+        padding-left: 50px;
+        height: 50px;
+        align-content:center;
+        margin-bottom: 15px;
+        h4,p {
+          margin: 0;
+          position: relative;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+      }
+      li.address {
+        color: #269759;
+        background: url("../images/contact-icon-2.png") -15px -17px no-repeat;
+        span {
+          font-weight: bold;
+        }
+      }
+      li.email {
+        background: url("../images/contact-icon-2.png") -15px -85px no-repeat;
+      }
+      li.mobile {
+        background: url("../images/contact-icon-2.png") -10px -150px no-repeat;
+      }
+      li.phone {
+        background: url("../images/contact-icon-2.png") -10px -222px no-repeat;
+      }
+    }
+  }
+}

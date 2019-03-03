@@ -1,0 +1,22 @@
+section.email-news {
+  height: 350px;
+  background: url("../images/background-receive-news.jpg") no-repeat 40% 100%;
+  h2 {
+    color: $primary-color;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  div.form-register-email {
+    margin-left: 25px;
+    input[type=submit] {
+      border: none;
+      background-color: #29901a;
+      color:  #ffffff;
+      padding: 5px 10px;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+  }
+}

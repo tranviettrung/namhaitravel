@@ -1,0 +1,31 @@
+section.article {
+  div.article {
+    margin-bottom: 25px;
+  }
+  div.other-article {
+    ul {
+      list-style-type: none;
+      margin: 15px 0 0 0;
+      padding: 0;
+      li {
+        position: relative;
+        a{
+          color: #747474;
+          font-weight: bold;
+          font-style: italic;
+          padding-left: 15px;
+        }
+      }
+      li:before {
+        font-weight: normal;
+        position: absolute;
+        display: inline-block;
+        font-family: FontAwesome;
+        content: "\f067";
+        color: #747474;
+        left: 0;
+        font-size: 0.8em;
+      }
+    }
+  }
+}

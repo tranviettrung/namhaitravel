@@ -1,0 +1,32 @@
+section.news {
+  h2.page-header {
+    margin-bottom: 25px;
+
+  }
+  div.article {
+    background: url("../images/separator.png") 0 100%/100% no-repeat;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    a.article-title {
+      h4 {
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+    div.media {
+      margin-top: 10px;
+      div.media-left {
+        img {
+          width: 200px;
+          height: 120px;
+        }
+      }
+    }
+    a {
+      color: #0a904b;
+    }
+    p {
+      line-height: 1.8em;
+    }
+  }
+}

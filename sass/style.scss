@@ -1,0 +1,33 @@
+@import "variables";
+@import 'vendors/normalize/normalize';
+@import "vendors/bootstrap/bootstrap";
+@import "vendors/font-awesome/font-awesome";
+
+// index page
+@import "common";
+@import "partials/header";
+@import "partials/slide";
+@import "partials/tour-baner";
+@import "partials/middle-tour";
+@import "partials/travel-news";
+@import "partials/support";
+@import "partials/email-news";
+@import "partials/footer";
+
+// about page
+@import "partials/introduce";
+
+// contact page
+@import "partials/contact";
+
+// news list page
+@import "partials/news-list";
+
+// tour detail page
+@import "partials/tour-detail";
+
+// tour list
+@import "partials/tour-list";
+
+// show article page
+@import "partials/article";

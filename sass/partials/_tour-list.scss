@@ -1,0 +1,47 @@
+section.tour-list {
+  div.tour {
+    .row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display:         flex;
+    }
+  }
+
+  div.tour{
+    background: url("../images/separator.png") 0 100%/100% no-repeat;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    div.tour-title {
+      h3 {
+        text-transform: uppercase;
+        margin: 0 0 25px 0;
+        font-weight: bold;
+        font-style: italic;
+        a{
+          color: $primary-color;
+        }
+      }
+    }
+    div.col-xs-6 {
+      position: relative;
+
+      div.tour-price {
+        position: absolute;
+        bottom: 0;
+        text-align: left;
+        p{
+          font-size: 1.8em;
+          margin: 0;
+          padding: 0;
+        }
+        a {
+          background: #005429;
+          color: #ffffff;
+          font-style: italic;
+        }
+      }
+    }
+
+  }
+}
